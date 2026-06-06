@@ -4,7 +4,6 @@
 # Script Bash de recherche de fichiers contenant un mot-cle.
 # Utilise grep pour parcourir recursivement un dossier.
 
-# Recuperation des parametres
 DOSSIER=$1
 MOT_CLE=$2
 RESPECTER_CASSE=$3
