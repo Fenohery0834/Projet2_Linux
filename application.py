@@ -354,7 +354,6 @@ class MainWindow:
         )
         self.barre_statut.pack(side="bottom", fill="x")
 
-        # Sidebar gauche
         panneau_gauche = tk.Frame(
             self.fenetre_principale, bg=theme["bg2"], width=280
         )
@@ -384,7 +383,6 @@ class MainWindow:
         separateur_haut = tk.Frame(panneau_gauche, bg=theme["border"], height=1)
         separateur_haut.pack(fill="x", padx=20, pady=16)
 
-        # Boutons en bas de sidebar
         cadre_boutons = tk.Frame(panneau_gauche, bg=theme["bg2"])
         cadre_boutons.pack(side="bottom", fill="x", padx=20, pady=(0, 20))
 
